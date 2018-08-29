@@ -3,15 +3,29 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{13655EF0-584A-4F99-A406-A1FEA97AC53E}" Type="Ref">/Target/devRefs.lvlib/catapaltrightDevrefCtrlLoop</Property>
+	<Property Name="varPersistentID:{15392D92-3F88-46F1-881D-A6199EC04067}" Type="Ref">/Target/Joystick values.lvlib/Select</Property>
+	<Property Name="varPersistentID:{2D7CEDF6-258F-4A4E-9934-4D354C383A08}" Type="Ref">/Target/Joystick values.lvlib/LT</Property>
+	<Property Name="varPersistentID:{37946A1F-97CF-4D9A-A73F-F86586DA664C}" Type="Ref">/Target/Joystick values.lvlib/LeftVertical</Property>
+	<Property Name="varPersistentID:{38A839AA-80BC-4A23-A518-B9B2624B6249}" Type="Ref">/Target/Joystick values.lvlib/LB</Property>
 	<Property Name="varPersistentID:{38E5664A-1E21-4D30-82EC-A4DA6268BBFC}" Type="Ref">/Target/devRefs.lvlib/catapaltLeftDevrefPneumaticCommandCluster</Property>
+	<Property Name="varPersistentID:{3F1E6250-0C80-4741-A2E4-4AAF7212CC0C}" Type="Ref">/Target/Joystick values.lvlib/RT</Property>
 	<Property Name="varPersistentID:{5FE7693E-1034-415A-B951-215D8E42CF68}" Type="Ref">/Target/devRefs.lvlib/catapaultRightDevrefPneumaticCommandCluster</Property>
 	<Property Name="varPersistentID:{61E3E70B-24F5-4919-83EE-915B655BF33A}" Type="Ref">/Target/devRefs.lvlib/intakeDevrefPneumaticCommandCluster</Property>
 	<Property Name="varPersistentID:{6C7508D9-E199-4041-8630-F627B2632B10}" Type="Ref">/Target/devRefs.lvlib/catapaltLeftDevrefControlLoop</Property>
+	<Property Name="varPersistentID:{6DA1152B-108F-4865-8A18-045BAB78211C}" Type="Ref">/Target/Joystick values.lvlib/RB</Property>
 	<Property Name="varPersistentID:{71B073E3-5AFB-4661-8A5E-108EF29B70D2}" Type="Ref">/Target/devRefs.lvlib/intakeDevrefControlLoop</Property>
+	<Property Name="varPersistentID:{82A05B64-6332-43AB-88C1-8CEF98BF2BD5}" Type="Ref">/Target/Joystick values.lvlib/RightVertical</Property>
 	<Property Name="varPersistentID:{8742ABDC-75A3-4BAE-8319-9DD44D49E7BB}" Type="Ref">/Target/devRefs.lvlib/catapaltLeftDevrefSenseLoop</Property>
+	<Property Name="varPersistentID:{88DA1CB4-3A16-45C9-9430-8B424A7DC096}" Type="Ref">/Target/Joystick values.lvlib/X</Property>
 	<Property Name="varPersistentID:{A9733508-5C2D-42E1-A632-D26D4F99321C}" Type="Ref">/Target/devRefs.lvlib/catapaltRightDevrefSenseLoop</Property>
+	<Property Name="varPersistentID:{ADA420CD-2DC5-4169-B2F0-3C98174DDFFE}" Type="Ref">/Target/Joystick values.lvlib/LeftHorizontal</Property>
+	<Property Name="varPersistentID:{B719132D-D8E0-4643-99CE-E4049573E2B0}" Type="Ref">/Target/Joystick values.lvlib/Y</Property>
+	<Property Name="varPersistentID:{D5307685-851F-40B1-B990-65FDE1A90A27}" Type="Ref">/Target/Joystick values.lvlib/Start</Property>
+	<Property Name="varPersistentID:{D576B476-0548-41B0-86EF-F98EBFEE0569}" Type="Ref">/Target/Joystick values.lvlib/RightHorizontal</Property>
 	<Property Name="varPersistentID:{D7615ACC-2426-4187-AC26-90B9A66FDE64}" Type="Ref">/Target/devRefs.lvlib/Drive Loop DevRef Out</Property>
+	<Property Name="varPersistentID:{F2583B10-427F-4936-8BBE-95A9219A9C00}" Type="Ref">/Target/Joystick values.lvlib/B</Property>
 	<Property Name="varPersistentID:{F538F4FF-C22B-4D79-AF28-66A3F69212B0}" Type="Ref">/Target/devRefs.lvlib/intakeDevrefSenseLoop</Property>
+	<Property Name="varPersistentID:{FF8419BB-A411-4B41-8046-5A3917A373F5}" Type="Ref">/Target/Joystick values.lvlib/A</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -137,6 +151,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="devRefs.lvlib" Type="Library" URL="../devRefs.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Joystick values.lvlib" Type="Library" URL="../Joystick values.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Camera_Cluster.ctl"/>
