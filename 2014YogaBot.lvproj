@@ -152,6 +152,9 @@ AddOutputFilter chunkFilter
 		<Item Name="devRefs.lvlib" Type="Library" URL="../devRefs.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Joystick values.lvlib" Type="Library" URL="../Joystick values.lvlib"/>
+		<Item Name="Catapault Enums.ctl" Type="VI" URL="../CommandTypes/Catapault Enums.ctl"/>
+		<Item Name="Intake Enums.ctl" Type="VI" URL="../CommandTypes/Intake Enums.ctl"/>
+		<Item Name="Drive Enums.ctl" Type="VI" URL="../CommandTypes/Drive Enums.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Camera_Cluster.ctl"/>
